@@ -2,3 +2,15 @@
 ---
 @import "base";
 @import "syntax-highlighting";
+@font-face {
+    font-family: 'HBIOS-SYS';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+<style>
+* {
+  font-family: "Nanum Gothic" !important;
+}
+</style>
