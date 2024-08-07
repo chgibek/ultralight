@@ -9,6 +9,6 @@
   font-weight: 400;
   font-display: swap;
   src: local('HBIOS-SYS'),
-       url('/HBIOS-SYS.woff2') format('woff2'),
-       url('/HBIOS-SYS.ttf') format('truetype');
+       url('./HBIOS-SYS.woff2') format('woff2'),
+       url('./HBIOS-SYS.ttf') format('truetype');
 }
