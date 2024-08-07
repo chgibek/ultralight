@@ -1,3 +1,1 @@
-Super lightweight Jekyll theme [ultralight](https://github.com/kotet/ultralight)  
-[Twitter](https://twitter.com/kotetttt)
-| [GitHub](https://github.com/kotet)
+2024 용비금속공예분과 (준)
