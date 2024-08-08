@@ -1,4 +1,19 @@
----
-layout: default
----
-<iframe src="https://yongbimap.jakdang.org/" width="100%" height="200px"></iframe>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ko" }}">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+{% include head.html %}
+<body>
+    <header>
+        <a class="site-title" href="{% include relative %}" >{{ site.title }}</a>
+        <div style="display: inline-block">
+            {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %} | <a href="{% include relative %}{{ my_page.url | relative_url }}">{{ my_page.title }}</a>{% endif %}{% endfor %}
+        </div>
+    </header>
+    <hr>
+    <main><iframe src="https://yongbimap.jakdang.org/" width="100%" height="200px"></iframe></main>
+    <hr>
+    <footer>
+        <p>자주적 콘텐츠 창작문화의 새 전형을 창출하는 3기 용비금속공예분과(준)</p>
+    </footer>
+</body>
+</html>
