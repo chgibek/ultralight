@@ -2,6 +2,14 @@ $base-font-size: 16px !default;
 $text-color: black;
 $border-color: lightgray;
 
+@font-face {
+    font-family: 'HBIOS-SYS';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2'), url('//github.com/quiple/hbios-sys/blob/main/HBIOS-SYS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     color: $text-color;
     margin: 0;
